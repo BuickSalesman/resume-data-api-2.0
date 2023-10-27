@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  get "/users" => "users#index"
+  post "/users" => "users#create"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  post "/sessions" => "sessions#create"
+
+  get "/profiles" => "profiles#index"
+  post "/profiles" => "profiles#create"
+  get "/profiles/:id" => "profiles#show"
+  patch "/profiles/:id" => "profiles#update"
+  delete "/photos/:id" => "photos#destroy"
+
   get "/experiences" => "experiences#index"
   post "/experiences" => "experiences#create"
   patch "/experiences/:id" => "experiences#update"
+
 end

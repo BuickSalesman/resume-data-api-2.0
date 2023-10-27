@@ -1,0 +1,13 @@
+json.id profile.id
+json.first_name profile.first_name
+json.last_name profile.last_name
+json.phone_number profile.phone_number
+json.short_bio profile.short_bio
+json.linkedin_url profile.linkedin_url
+json.twitter profile.twitter
+json.personal_url profile.personal_url
+json.resume_url profile.resume_url
+json.github_url profile.github_url
+json.photo profile.photo
+json.created_at profile.created_at
+json.updated_at profile.updated_at
