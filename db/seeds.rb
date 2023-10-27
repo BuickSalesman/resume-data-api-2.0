@@ -39,6 +39,14 @@ Profile.create(
   photo: "test.com/lei.jpg",
 )
 
+Experience.create(
+  start_date: "02-04-2015",
+  end_date: "03-05-2021",
+  job_title: "Very Good Worker"
+  company_name: "Very Good Company"
+  details: "Performs tasks at a very good level"
+  )
+
 Education.create(
   start_date: "04-23-2021",
   end_date: "07-03-2023",
