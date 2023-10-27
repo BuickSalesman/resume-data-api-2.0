@@ -38,3 +38,16 @@ Profile.create(
   github_url: "github.com/test2",
   photo: "test.com/lei.jpg",
 )
+
+Experience.create(
+  start_date: "Lei",
+end_date: "Jia",
+  job_title: "1234567892",
+  short_bio: "my name lei",
+  linkedin_url: "linkedin.com/test2",
+  twitter: "@test2",
+  personal_url: "test.com/lei",
+  resume_url: "test.com/leiresume",
+  github_url: "github.com/test2",
+  photo: "test.com/lei.jpg",
+)
