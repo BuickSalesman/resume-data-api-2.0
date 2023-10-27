@@ -8,5 +8,9 @@ Rails.application.routes.draw do
   post "/profiles" => "profiles#create"
   get "/profiles/:id" => "profiles#show"
   patch "/profiles/:id" => "profiles#update"
-  delete "/photos/:id" => "photos#destroy"
+  delete "/profiles/:id" => "profiles#destroy"
+
+  get "/educations" => "educations#index"
+  post "/educations" => "educations#create"
+  patch "/educations/:id" => "educations#update"
 end
